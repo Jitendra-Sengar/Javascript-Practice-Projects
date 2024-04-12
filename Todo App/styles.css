@@ -71,9 +71,12 @@ ul li::before{
     height: 28%;
     width: 28%;
     border-radius: 50%;
-    /* background-image: url("./images/uncheck.png"); */
+    background-image: url("./images/uncheck.png");
     background-size: cover;
     background-position: center;
     top: 12px;
     left: 8px;
+}
+span{
+    cursor: pointer;
 }
